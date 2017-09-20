@@ -1,0 +1,25 @@
+/* Site specific css */
+
+#login_link {
+  position: relative;
+  display: block;
+  padding: 5px 10px;
+}
+
+#top_page {
+  position: relative;
+  min-height: 10px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  background-color: #a3e1ff
+}
+
+@media (min-width: 768px) {
+  .header .os_page_inner {
+    padding: 5px 0 10px;
+  }
+}
+
+body {
+  background-color: #d6fbff;
+}
