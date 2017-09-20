@@ -5,7 +5,7 @@ import json
 from django.core.exceptions import ImproperlyConfigured
 
 # JSON based secrets module
-with open(BASE_DIR.child("dev_secrets.json")) as f:
+with open(BASE_DIR.child("prod_secrets.json")) as f:
     secrets = json.loads(f.read())
 
 def get_secret(setting, secrests=secrets):
